@@ -4,9 +4,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            margin: 0 auto;
+            overflow-x: hidden;
+           
+        }
+        .name{
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            background-color: rgb(70, 74, 85);
+           
+        }
+        .title1{
+            margin-top: 0;
+            color:white;
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            
+
+        }
+        .main{
+            width:100vw;
+            display: flex;
+            font-family: 'Optima', 'Segoe', "Segoe UI", 'Candara', 'Calibri', Arial, sans-serif; 
+            font-size: 15px; 
+           
+        }
+        .leftbox{
+            width: 300px;
+            background-color: rgb(242, 244, 247);
+            text-align: center;
+            font-size: 15px;
+        }
+        .myphoto{
+            width:270px;
+            display: inline;
+            margin-top: 20px;
+           
+        }
+        h3{
+            
+            text-align: left;
+            margin:0;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .contact{
+            margin: 0 20px 0 20px;
+            text-align: left;
+           
+        }
+ 
+        .contact img{
+            vertical-align: middle;
+            margin: 10px 10px 10px 0;
+        }
+
+        .contact a{
+            text-decoration: none;
+            color:rgb(70, 42, 78)
+        }
+
+        .skills{
+            text-align: left;
+            margin-left:20px;
+            line-height: 2em;
+        }
+        a:hover{
+            cursor: pointer;
+        }
+        .contents{
+            width:70%;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        .liststyle{
+            list-style-position: outside;
+        }
+        .contents span{
+            font-style: italic;
+            line-height: 3em;
+            font-weight: 600;
+            margin-left: 0;
+        }
+        h2{
+            margin-bottom: 10px;
+        }
+        .footer{
+            width: 100%;
+            position:absolute;
+            margin-left: 0;
+            margin-right:0;
+            text-align: center;
+            height:40px;
+            background-color: rgb(224, 226, 230);
+            line-height: 40px;
+
+        }
+        small{
+            color: rgb(110, 108, 121);
+        }
+    </style>
 </head>
 <body>
-    <h1>First Day of Intro.</h1>
-    <h3>We are strudying Git Commands</h3>
+    <div class="name">
+        <h1 class="title1">Soyun Lee</h1>
+    </div>
+    <div class="main">
+        <div class="leftbox">
+            <img src="./images/soyun.jpg" class="myphoto" alt="my photo">
+                <h3>Personal Info</h3>
+                <hr color = "#7a99b8" size="1" width = "90%" noshade /> 
+              
+                <div class="contact">
+                    <img src="./images/phone.png" width="20px;" alt="phone">
+                    778-788-9582
+                    <br><img src="./images/email.png" width="20px;" alt="email">
+                    soyunlee624@gmail.com
+                    <br><img src="./images/home.png" width="20px;" alt="home">
+                    777 Cardero St, Vancouver BC
+                    <br><img src="./images/linkedin.png" width="20px;" alt="linkedin">
+                    <a href="www.linkedin.com/in/soyun0624" >www.linkedin.com/in/soyun0624</a>
+                </div>
+
+                <h3>Skills</h3>
+                <hr color = "#7a99b8" size="1" width = "90%" noshade /> 
+                <div class="skills">
+                    <li>Java</li>
+                    <li>Jsp</li>
+                    <li>Javascript</li>
+                    <li>Oracle</li>
+                </div>
+ 
+                <h3>Language</h3>
+                <hr color = "#7a99b8" size="1" width = "90%" noshade /> 
+                <div class="skills">
+                    <li>English</li>
+                    <li>Japanese</li>
+                    <li>Korean</li>
+                  
+                </div>
+
+        </div>
+        <div class="contents">
+            <p>Creative web developer dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites.
+            <br>Known for ability to multi-task and juggle multiple pressing projects simultaneously, meeting all deadlines.</p>
+            <h2>Experience</h2>
+            <hr color = "#7a99b8" size="1" width = "100%" noshade /> 
+            
+                <ul class="liststyle">
+                <span>SK HOLDINGS, Seongnam, Korea</span> 
+                <li>Developed of gift certificate system based on block chain and company's facility information management system. (FIMS)</li>
+                <li>Maintained of E-tax System.</li>
+
+                <span>POSCO ICT, Seongnam, Korea</span>
+                <li>Managed IT maintenance of the POSCO group online blog and renovated intranet.</li>
+
+                <span>SAMSUNG SDS, Suwon, Korea</span>
+                <li>Maintained of SAMSUNG ELECTRONICS LOGITECH HR system and developed management evaluation system.</li> 
+                     
+                <span>NS HOME SHOPPING, Seongnam, Korea</span>
+                <li>Developed the Recruitment HR website used as a job application and candidate's notification system as well as for posting employment advertisements.</li> 
+                <li>Maintained HR personnel management system and multi-browser processing. </li> 
+
+                <span>KOREA INSTITUTE of CIVIL ENGINEERING and BUILDING TECHNOLOGY, Ilsan, Korea</span>
+                <li>Developed and maintained the system for estimation and management of construction expenses.</li>
+            </ul>
+        
+            
+            <h2>Education</h2>
+            <hr color = "#7a99b8" size="1" width = "100%" noshade /> 
+            <ul class="liststyle">
+                <span>Cornerstone International Community College of Canada </span> 
+                <li>Web & Mobile Development</li>
+
+                <span>Ssangyong Institute of System Technology, Seoul, Korea</span> 
+                <li>Oracle Based Java Software Engineer Certificate</li>
+               
+                <span>Kookje College, Pyeong Taek, Korea</span>
+                <li>Associate’s Degree in Industrial design</li>
+
+             </ul>
+        </div>
+        
+    </div>
+        
+    <div class="footer">
+        <small>&copy; 2020 Intro to Computing</small>
+    </div>
+       
+   
 </body>
 </html>
